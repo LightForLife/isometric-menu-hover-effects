@@ -7,9 +7,9 @@ body {
   font-weight: 700;
   font-style: normal;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -91,6 +91,11 @@ li {
 
 .menu-item:hover {
   background: #33a3ee;
+  -webkit-transform: translateX(50px);
+          transform: translateX(50px);
+}
+
+.menu-item-right:hover {
   -webkit-transform: translateX(-50px);
           transform: translateX(-50px);
 }
